@@ -1,0 +1,88 @@
+/* global section  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Secular One', sans-serif;
+}
+
+/* home slider section  */
+#feedback .carousel-control-next-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: red;
+    position: absolute;
+    right: -3px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+
+}
+
+#feedback .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    background-size: 100% 100%;
+}
+
+/* for mobile  */
+@media screen and (max-width:767px) {
+
+    /* .course-img{
+        text-align: center;
+    }
+    .course-img img{
+        width: 95%;
+        max-width: 400px !important;
+        height: 300px;
+    } */
+    .mobile-carousel-caption {
+        position: absolute;
+        bottom: -10px;
+
+
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 8%;
+    }
+
+    #releted-company {
+        display: none;
+    }
+}
+
+/* for tablet  */
+@media screen and (max-width:768px) {
+    .course-img {
+        text-align: center;
+    }
+
+    .course-img img {
+        width: 95%;
+        max-width: 400px !important;
+        height: auto;
+    }
+
+    #releted-company {
+        display: none;
+    }
+}
